@@ -1,0 +1,17 @@
+/* Faculty Portal — Entry Styles */
+@import "../../shared/design-tokens.css";
+@import "tailwindcss";
+@import "../../shared/tailwind-preset.css";
+
+/* Portal-specific layout */
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Faculty portal uses same navy primary, slightly warmer sidebar */
+:root {
+  --portal-accent: var(--color-primary-600);
+  --portal-name: "Faculty Portal";
+}

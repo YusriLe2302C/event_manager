@@ -1,0 +1,19 @@
+/* Super Admin Portal — Entry Styles */
+@import "../../shared/design-tokens.css";
+@import "tailwindcss";
+@import "../../shared/tailwind-preset.css";
+
+/* Portal-specific layout */
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Superadmin portal — deeper navy for authority */
+:root {
+  --portal-accent: var(--color-primary-900);
+  --portal-name: "Super Admin Portal";
+  --brand: var(--color-primary-800);
+  --brand-dark: var(--color-primary-900);
+}

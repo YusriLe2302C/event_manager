@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 90
+    },
+    "auditLog": "c:\\Users\\SHARANA\\OneDrive\\Desktop\\mvp\\server\\logs\\.audit-meta.json",
+    "files": [
+        {
+            "date": 1773506252636,
+            "name": "c:\\Users\\SHARANA\\OneDrive\\Desktop\\mvp\\server\\logs\\audit-2026-03-14.log",
+            "hash": "2ba595a2271ccdbd097ee1bf98e1fda04744195419161a0c095378dbb8004ecb"
+        },
+        {
+            "date": 1773510779656,
+            "name": "C:\\Users\\SHARANA\\OneDrive\\Desktop\\mvp\\server\\logs\\audit-2026-03-14.log",
+            "hash": "6d2c9522398e8f62ed7c3705220bb06f6494e67c3f5dc38e4ef18adb454f6433"
+        },
+        {
+            "date": 1773513025865,
+            "name": "C:\\Users\\SHARANA\\OneDrive\\Desktop\\mvp\\server\\logs\\audit-2026-03-15.log",
+            "hash": "d6c37e0cfea78be4eb876fa18179f64d7c81a7223dd358ccd716bc0038966fce"
+        },
+        {
+            "date": 1773514732394,
+            "name": "c:\\Users\\SHARANA\\OneDrive\\Desktop\\mvp\\server\\logs\\audit-2026-03-15.log",
+            "hash": "7b60f3545379c07f6431f4e7694639724b6d6c2d3ba51fc0d8fe9d6d2c287258"
+        }
+    ],
+    "hashType": "sha256"
+}

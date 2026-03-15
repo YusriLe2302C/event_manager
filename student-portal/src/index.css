@@ -1,0 +1,17 @@
+/* Student Portal — Entry Styles */
+@import "../../shared/design-tokens.css";
+@import "tailwindcss";
+@import "../../shared/tailwind-preset.css";
+
+/* Portal-specific layout */
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Student portal accent override — keep accent-500 (light blue) as interactive color */
+:root {
+  --portal-accent: var(--color-accent-500);
+  --portal-name: "Student Portal";
+}
