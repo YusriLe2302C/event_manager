@@ -16,6 +16,19 @@ const start = async () => {
   // Connect to MongoDB
   await connectDB();
 
+  // Auto-seed superadmin if not present
+  const User = require('./models/User.model');
+  const adminExists = await User.findOne({ role: 'superadmin' });
+  if (!adminExists) {
+    await User.create({
+      name:     'Super Admin',
+      email:    config.admin.email,
+      password: config.admin.password,
+      role:     'superadmin',
+    });
+    logger.info('Superadmin auto-seeded', { email: config.admin.email });
+  }
+
   // Register cron jobs
   deadlineReminder.register();
 
